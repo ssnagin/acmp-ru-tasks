@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Test
+# Target rules for targets named acmp_ru_tasks
 
 # Build rule for target.
-Test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Test
-.PHONY : Test
+acmp_ru_tasks: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 acmp_ru_tasks
+.PHONY : acmp_ru_tasks
 
 # fast build rule for target.
-Test/fast:
-	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-.PHONY : Test/fast
+acmp_ru_tasks/fast:
+	$(MAKE) -f CMakeFiles\acmp_ru_tasks.dir\build.make CMakeFiles/acmp_ru_tasks.dir/build
+.PHONY : acmp_ru_tasks/fast
 
-main.obj: main.cpp.obj
+tasks/t1_100/t0002.obj: tasks/t1_100/t0002.cpp.obj
 
-.PHONY : main.obj
+.PHONY : tasks/t1_100/t0002.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+tasks/t1_100/t0002.cpp.obj:
+	$(MAKE) -f CMakeFiles\acmp_ru_tasks.dir\build.make CMakeFiles/acmp_ru_tasks.dir/tasks/t1_100/t0002.cpp.obj
+.PHONY : tasks/t1_100/t0002.cpp.obj
 
-main.i: main.cpp.i
+tasks/t1_100/t0002.i: tasks/t1_100/t0002.cpp.i
 
-.PHONY : main.i
+.PHONY : tasks/t1_100/t0002.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.i
-.PHONY : main.cpp.i
+tasks/t1_100/t0002.cpp.i:
+	$(MAKE) -f CMakeFiles\acmp_ru_tasks.dir\build.make CMakeFiles/acmp_ru_tasks.dir/tasks/t1_100/t0002.cpp.i
+.PHONY : tasks/t1_100/t0002.cpp.i
 
-main.s: main.cpp.s
+tasks/t1_100/t0002.s: tasks/t1_100/t0002.cpp.s
 
-.PHONY : main.s
+.PHONY : tasks/t1_100/t0002.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/main.cpp.s
-.PHONY : main.cpp.s
+tasks/t1_100/t0002.cpp.s:
+	$(MAKE) -f CMakeFiles\acmp_ru_tasks.dir\build.make CMakeFiles/acmp_ru_tasks.dir/tasks/t1_100/t0002.cpp.s
+.PHONY : tasks/t1_100/t0002.cpp.s
 
 # Help Target
 help:
@@ -156,11 +156,11 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... rebuild_cache
-	@echo ... Test
+	@echo ... acmp_ru_tasks
 	@echo ... edit_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... tasks/t1_100/t0002.obj
+	@echo ... tasks/t1_100/t0002.i
+	@echo ... tasks/t1_100/t0002.s
 .PHONY : help
 
 

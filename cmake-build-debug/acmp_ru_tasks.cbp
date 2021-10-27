@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="Test"/>
+		<Option title="acmp_ru_tasks"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Test">
-				<Option output="P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="acmp_ru_tasks">
+				<Option output="P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/acmp_ru_tasks.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -42,14 +42,14 @@
 					<Add directory="p:\programfiles\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test"/>
+					<Build command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmp_ru_tasks"/>
 					<CompileFile command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Test/fast">
-				<Option output="P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Test.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="acmp_ru_tasks/fast">
+				<Option output="P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/acmp_ru_tasks.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -63,7 +63,7 @@
 					<Add directory="p:\programfiles\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<Build command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 acmp_ru_tasks/fast"/>
 					<CompileFile command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="P:/ProgramFiles/MinGW/bin/mingw32-make.exe -f &quot;P:/Documents/projects/c++/github/acmp-ru-tasks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -80,8 +80,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="P:/Documents/projects/c++/github/acmp-ru-tasks/main.cpp">
-			<Option target="Test"/>
+		<Unit filename="P:/Documents/projects/c++/github/acmp-ru-tasks/tasks/t1_100/t0002.cpp">
+			<Option target="acmp_ru_tasks"/>
 		</Unit>
 		<Unit filename="P:/Documents/projects/c++/github/acmp-ru-tasks/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

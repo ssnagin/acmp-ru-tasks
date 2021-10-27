@@ -52,7 +52,7 @@ CMAKE_BINARY_DIR = P:\Documents\projects\c++\github\acmp-ru-tasks\cmake-build-de
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Test.dir/all
+all: CMakeFiles/acmp_ru_tasks.dir/all
 
 .PHONY : all
 
@@ -62,36 +62,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Test.dir/clean
+clean: CMakeFiles/acmp_ru_tasks.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Test.dir
+# Target rules for target CMakeFiles/acmp_ru_tasks.dir
 
 # All Build rule for target.
-CMakeFiles/Test.dir/all:
-	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/depend
-	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=P:\Documents\projects\c++\github\acmp-ru-tasks\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Test"
-.PHONY : CMakeFiles/Test.dir/all
+CMakeFiles/acmp_ru_tasks.dir/all:
+	$(MAKE) -f CMakeFiles\acmp_ru_tasks.dir\build.make CMakeFiles/acmp_ru_tasks.dir/depend
+	$(MAKE) -f CMakeFiles\acmp_ru_tasks.dir\build.make CMakeFiles/acmp_ru_tasks.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=P:\Documents\projects\c++\github\acmp-ru-tasks\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target acmp_ru_tasks"
+.PHONY : CMakeFiles/acmp_ru_tasks.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Test.dir/rule: cmake_check_build_system
+CMakeFiles/acmp_ru_tasks.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start P:\Documents\projects\c++\github\acmp-ru-tasks\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Test.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/acmp_ru_tasks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start P:\Documents\projects\c++\github\acmp-ru-tasks\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/Test.dir/rule
+.PHONY : CMakeFiles/acmp_ru_tasks.dir/rule
 
 # Convenience name for target.
-Test: CMakeFiles/Test.dir/rule
+acmp_ru_tasks: CMakeFiles/acmp_ru_tasks.dir/rule
 
-.PHONY : Test
+.PHONY : acmp_ru_tasks
 
 # clean rule for target.
-CMakeFiles/Test.dir/clean:
-	$(MAKE) -f CMakeFiles\Test.dir\build.make CMakeFiles/Test.dir/clean
-.PHONY : CMakeFiles/Test.dir/clean
+CMakeFiles/acmp_ru_tasks.dir/clean:
+	$(MAKE) -f CMakeFiles\acmp_ru_tasks.dir\build.make CMakeFiles/acmp_ru_tasks.dir/clean
+.PHONY : CMakeFiles/acmp_ru_tasks.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
